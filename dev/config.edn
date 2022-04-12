@@ -1,0 +1,7 @@
+
+
+{:server/jetty {:handler #ig/ref :ed/app
+                :port 3000}
+ :ed/app {:name "Ed"}}
+              ;; this value will overwrite the config in .clojure directory
+              ; :storage-dir :mem
